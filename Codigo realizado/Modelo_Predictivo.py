@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Cargar el conjunto de datos desde la ruta local
-file_path = r"C:\Jose\Pruebas Empresas\Prueba Tecnica Aprendiz U_Bancolombia\Lemonade.txt"
+file_path = r"C:\Jose\Pruebas Empresas\Prueba Tecnica Aprendiz U_Bancolombia\Lemonade.txt" # Reemplazar con la ruta correcta
 df = pd.read_csv(file_path, sep=",")
 
 # Mostrar las primeras filas del DataFrame para verificar que se ha cargado correctamente

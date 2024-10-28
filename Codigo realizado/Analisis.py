@@ -4,7 +4,7 @@ from scipy.stats import skew, kurtosis
 
 # Cargar el dataset
 file_path = 'C:\Jose\Pruebas Empresas\Prueba Tecnica Aprendiz U_Bancolombia\Lemonade.txt'  # Reemplazar con la ruta correcta
-data = pd.read_csv(file_path, delimiter=',')  # Si está delimitado por tabulaciones, si no, cambiar el delimiter
+data = pd.read_csv(file_path, delimiter=',') 
 
 '''
 # Mostrar las primeras filas del dataset para explorarlo

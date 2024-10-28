@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Cargar el conjunto de datos desde la ruta local
-file_path = r"C:\Jose\Pruebas Empresas\Prueba Tecnica Aprendiz U_Bancolombia\Lemonade.txt"
+# Cargar el conjunto de datos desde la ruta local 
+file_path = r"C:\Jose\Pruebas Empresas\Prueba Tecnica Aprendiz U_Bancolombia\Lemonade.txt" # Reemplazar con la ruta correcta
 df = pd.read_csv(file_path, sep=",")
 
 # Conversión de la columna 'Date' a formato datetime
